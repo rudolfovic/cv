@@ -7,19 +7,20 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Sergey Grant
+    tagline: Machine Teacher
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: sergey@cantab.net
+    phone: +972 58 785 60 26
+    website: sergey.ai #do not add http://
+    linkedin: rudolfovic
+    github: rudolfovic
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    whatsapp: +44 7946409027
+    twitter: '@rudolfovic'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
