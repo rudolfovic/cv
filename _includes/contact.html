@@ -19,69 +19,72 @@
     </li>
     {% endif %}
 
+    {% comment %}
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
     {% endif %}
-
+    {% endcomment %}
+  </ul>
+  <ul class="list-inline contact-list">
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.facebook %}
     <li class="facebook"><i class="fab fa-facebook"></i>
-      <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank">{{ sidebar.facebook }}</a>
+      <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.instagram %}
     <li class="instagram"><i class="fab fa-instagram"></i>
-      <a href="https://www.instagram.com/{{ sidebar.instagram }}">@{{ sidebar.instagram }}</a>
+      <a href="https://www.instagram.com/{{ sidebar.instagram }}"></a>
     </li>
     {% endif %}
 
     {% if sidebar.medium %}
     <li class="medium"><i class="fab fa-medium"></i>
-      <a href="https://medium.com/{{ sidebar.medium }}" target="_blank">{{ sidebar.medium }}</a>
+      <a href="https://medium.com/{{ sidebar.medium }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.twitter %}
     <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank"></a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank"></a>
     </li>
     {% endif %}
 
