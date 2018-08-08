@@ -16,10 +16,12 @@ sidebar:
     phone: +972 58 785 60 26
     website: sergey.ai #do not add http://
     linkedin: sergeygrant
+    facebook: rudolfovic
+    instagram: rudolfovicc
     github: rudolfovic
     gitlab:
     bitbucket:
-    whatsapp: +44 7946409027
+    whatsapp: 447946409027 # do not add + or spaces (for the link to work)
     twitter: '@rudolfovic'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
@@ -28,20 +30,20 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Russian
+        level: Native
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: French
+        level: Intermediate
+
+      - idiom: Hebrew
+        level: Elementary
         
     interests:
-      - item: Climbing
+      - item: Languages
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Martial Arts
         link:
 
 career-profile:

@@ -13,6 +13,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.whatsapp %}
+    <li class="whatsapp"><i class="fas fa-whatsapp"></i>
+      <a href="https://api.whatsapp.com/send?phone={{ sidebar.whatsapp }}">+{{ sidebar.whatsapp }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
@@ -22,6 +28,24 @@
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.facebook %}
+    <li class="facebook"><i class="fab fa-facebook"></i>
+      <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank">{{ sidebar.facebook }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.instagram %}
+    <li class="instagram"><i class="fas fa-instagram"></i>
+      <a href="https://www.instagram.com/{{ sidebar.instagram }}">@{{ sidebar.instagram }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.medium %}
+    <li class="medium"><i class="fab fa-medium"></i>
+      <a href="https://medium.com/{{ sidebar.medium }}" target="_blank">{{ sidebar.medium }}</a>
     </li>
     {% endif %}
 
