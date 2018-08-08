@@ -48,7 +48,9 @@ p {
         color: #fff;
     }
     .profile-container {
-        padding: 30px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
         //background: darken($theme-color, 10%);
         background: rgba(0, 0, 0, 0.2);
         text-align: center;
