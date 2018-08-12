@@ -1,9 +1,12 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
 
+    .wrapper {
+        flex-direction: column;
+    }
+
     body{
         padding: 0;
-        flex-direction: column;
     }
 
     .sidebar-wrapper {
@@ -12,7 +15,10 @@
     }
 
     .main-wrapper {
-        padding: 30px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 0;
     }
 
     .main-wrapper .time {
@@ -36,7 +42,7 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     
-    body {
+    .wrapper {
         flex-direction: row-reverse;
     }
 
