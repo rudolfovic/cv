@@ -3,6 +3,7 @@
 
     body{
         padding: 0;
+        flex-direction: column;
     }
 
     .sidebar-wrapper {
@@ -34,6 +35,10 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    
+    body {
+        flex-direction: row-reverse;
+    }
 
     .skillset .level-title {
         display: inline-block;
