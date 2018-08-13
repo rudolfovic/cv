@@ -32,6 +32,11 @@ sidebar:
         icon: fas fa-envelope
         text: sergey@cantab.net
 
+      - type: resume
+        link: cv.sergey.ai
+        icon: far fa-file-alt
+        text: Resume
+
     social:
       -
         type: linkedin
@@ -67,21 +72,6 @@ sidebar:
         type: twitter
         link: https://twitter.com/rudolfovic
         icon: fab fa-twitter
-
-    # Sidebar links
-    email: sergey@cantab.net
-    phone: +972 58 785 60 26
-    website: sergey.ai #do not add http://
-    linkedin: sergeygrant
-    facebook: rudolfovic
-    instagram: rudolfovicc
-    github: rudolfovic
-    gitlab:
-    bitbucket:
-    whatsapp: 447946409027 # do not add + or spaces (for the link to work)
-    twitter: '@rudolfovic'
-    stack-overflow: 2153636 # Number/Username, e.g. 123456/alandoe
-    codewars:
 
     languages:
       - idiom: English
