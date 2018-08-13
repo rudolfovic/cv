@@ -3,50 +3,15 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
     {% for contact in contacts %}
+    {% if contact.hide == false %}
     <li class="{{ contact.type }}">
       <a href="{{ contact.link }}">
         <i class="{{ contact.icon }}"></i>
         {{ contact.text }}
       </a>
     </li>
+    {% endif %}
     {% endfor %}
-    {% comment %}
-    {% if sidebar.email %}
-    <li class="email">
-      <a href="mailto:{{ sidebar.email }}">
-        <i class="fas fa-envelope"></i>
-        {{ sidebar.email }}
-      </a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.phone %}
-    <li class="phone">
-      <a href="tel:{{ sidebar.phone }}">
-        <i class="fas fa-phone"></i>
-        {{ sidebar.phone }}
-      </a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.whatsapp %}
-    <li class="whatsapp">
-      <a href="https://api.whatsapp.com/send?phone={{ sidebar.whatsapp }}">
-        <i class="fab fa-whatsapp"></i>
-        +{{ sidebar.whatsapp }}
-      </a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.website %}
-    <li class="website">
-      <a href="http://{{ sidebar.website }}" target="_blank">
-        <i class="fas fa-globe-americas"></i>
-        {{ sidebar.website }}
-      </a>
-    </li>
-    {% endif %}
-    {% endcomment %}
   </ul>
   <ul class="list-inline contact-list">
     {% if sidebar.linkedin %}

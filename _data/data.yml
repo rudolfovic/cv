@@ -31,6 +31,7 @@ sidebar:
         link: mailto:sergey@cantab.net
         icon: fas fa-envelope
         text: sergey@cantab.net
+        hide: true
 
     # Sidebar links
     email: sergey@cantab.net
