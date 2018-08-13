@@ -25,7 +25,7 @@ sidebar:
         type: whatsapp
         link: https://api.whatsapp.com/send?phone=447946409027
         icon: fab fa-whatsapp
-        text: +44 7946409027
+        text: +44 7946 409027
       -
         type: email
         link: mailto:sergey@cantab.net
