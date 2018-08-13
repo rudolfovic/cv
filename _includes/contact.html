@@ -3,7 +3,7 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
     {% for contact in contacts %}
-    {% if contact.hide == false %}
+    {% if contact.type %}
     <li class="{{ contact.type }}">
       <a href="{{ contact.link }}">
         <i class="{{ contact.icon }}"></i>

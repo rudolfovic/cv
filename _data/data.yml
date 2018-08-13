@@ -27,11 +27,10 @@ sidebar:
         icon: fab fa-whatsapp
         text: +44 7946 409027
       -
-        type: email
+        type: false #email
         link: mailto:sergey@cantab.net
         icon: fas fa-envelope
         text: sergey@cantab.net
-        hide: true
 
     # Sidebar links
     email: sergey@cantab.net
