@@ -32,11 +32,6 @@ sidebar:
         icon: fas fa-envelope
         text: sergey@cantab.net
 
-      - type: resume
-        link: cv.sergey.ai
-        icon: far fa-file-alt
-        text: Resume
-
     social:
       -
         type: linkedin
