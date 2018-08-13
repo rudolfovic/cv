@@ -32,6 +32,42 @@ sidebar:
         icon: fas fa-envelope
         text: sergey@cantab.net
 
+    social:
+      -
+        type: linkedin
+        link: https://linkedin.com/in/sergeygrant
+        icon: fab fa-linkedin
+
+      -
+        type: facebook
+        link: https://facebook.com/rudolfovic
+        icon: fab fa-facebook
+
+      -
+        type: instagram
+        link: https://www.instagram.com/rudolfovicc
+        icon: fab fa-instagram
+
+      -
+        type: false # medium
+        link: https://medium.com/sergeygrant
+        icon: fab fa-medium
+
+      -
+        type: github
+        link: https://github.com/rudolfovic
+        icon: fab fa-github
+      
+      -
+        type: stack-overflow
+        link: https://stackoverflow.com/users/2153636
+        icon: fab fa-stack-overflow
+      
+      -
+        type: twitter
+        link: https://twitter.com/rudolfovic
+        icon: fab fa-twitter
+
     # Sidebar links
     email: sergey@cantab.net
     phone: +972 58 785 60 26

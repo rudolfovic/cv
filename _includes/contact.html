@@ -14,6 +14,17 @@
     {% endfor %}
   </ul>
   <ul class="list-inline contact-list">
+    {% for link in social %}
+    {% if link.type %}
+    <li class="{{ link.type }}">
+      <a href="{{ link.link }}" target="_blank">
+        <i class="{{ link.icon }}"></i>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    {% comment %}
     {% if sidebar.linkedin %}
     <li class="linkedin">
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">
@@ -93,6 +104,6 @@
       </a>
     </li>
     {% endif %}
-
+    {% endcomment %}
   </ul>
 </div><!--//contact-container-->
