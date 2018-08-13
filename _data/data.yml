@@ -10,6 +10,28 @@ sidebar:
     tagline: Machine Teacher
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+    contacts:
+      -
+        type: email
+        link: mailto:sergey@cantab.net
+        icon: fas fa-envelope
+        text: sergey@cantab.net
+      -
+        type: phone
+        link: tel:+972587856026
+        icon: fas fa-phone
+        text: +972 58 785 60 26
+      -
+        type: whatsapp
+        link: https://api.whatsapp.com/send?phone=447946409027
+        icon: fab fa-whatsapp
+        text: +44 7946409027
+      -
+        type: email
+        link: mailto:sergey@cantab.net
+        icon: fas fa-envelope
+        text: sergey@cantab.net
+
     # Sidebar links
     email: sergey@cantab.net
     phone: +972 58 785 60 26

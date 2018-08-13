@@ -1,6 +1,16 @@
+{% assign contacts = site.data.data.sidebar.contacts %}
+{% assign social = site.data.data.sidebar.social %}
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
-
+    {% for contact in contacts %}
+    <li class="{{ contact.type }}">
+      <a href="{{ contact.link }}">
+        <i class="{{ contact.icon }}"></i>
+        {{ contact.text }}
+      </a>
+    </li>
+    {% endfor %}
+    {% comment %}
     {% if sidebar.email %}
     <li class="email">
       <a href="mailto:{{ sidebar.email }}">
@@ -28,7 +38,6 @@
     </li>
     {% endif %}
 
-    {% comment %}
     {% if sidebar.website %}
     <li class="website">
       <a href="http://{{ sidebar.website }}" target="_blank">
